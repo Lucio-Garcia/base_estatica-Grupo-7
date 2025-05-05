@@ -1,10 +1,10 @@
 body {
-    font-family: "Segeo UI",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    font-family: "Segeo UI",'Segoe UI', Tahoma,  Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-size: cover;
-    background: url("/curza.jpg");
-    box-shadow: 0 2px 10px rgb(0, 0, 0.3);
+    background-color: #0e536e;
+    
+    
 }
 
 header {
@@ -12,8 +12,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #3F51B5;
-    color: rgb(255, 255, 255);
+    background-color: #162daf;
+    color: rgb(255, 251, 251);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
 
@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #f7efef;
     background-color: #5c6bc0;
     padding: 10px 16px;
     border-radius: 8px;
@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #3949ab;
+    background-color: #bebbbb;
     transform: scale(1.05);
 }
 
@@ -54,7 +54,7 @@ main {
     max-width: 900px;
     margin: 40px auto;
     padding: 20px;
-    background-color: rgb(252, 247, 247);
+    background-color: rgba(255, 255, 255, 0.993);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
 
@@ -63,7 +63,6 @@ img {
     margin: 30px auto;
     max-width: 100%;
     border-radius:8px;
-    color: #000000;
 }
 
 footer {
@@ -71,7 +70,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: #3F51B5;
+    background-color: #072af5;
     font-size: 14px;
 }
 
@@ -88,7 +87,7 @@ footer {
     transition: background-color 0.3s;
 }
 .navButton:hover{
-    background-color: #000000;
+    background-color: #ddd4d4;
 }
 
 .flecha {

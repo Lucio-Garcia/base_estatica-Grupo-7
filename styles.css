@@ -1,8 +1,10 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Segeo UI",'Segoe UI', Tahoma,  Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FAFAFA;
+    background-color: #0e536e;
+    
+    
 }
 
 header {
@@ -10,42 +12,57 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #3F51B5;
-    color: white;
+    background-color: #162daf;
+    color: rgb(255, 251, 251);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
 
 header h1 {
     margin: 0;
+    font-size:1.8rem;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
 nav ul li a {
-    color: white;
+    color: #f7efef;
+    background-color: #5c6bc0;
+    padding: 10px 16px;
+    border-radius: 8px;
     text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
 }
+
+nav ul li a:hover {
+    background-color: #bebbbb;
+    transform: scale(1.05);
+}
+
 
 main {
     max-width: 900px;
     margin: 40px auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.993);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
 
 img {
     display: block;
-    margin: 40px auto;
+    margin: 30px auto;
     max-width: 100%;
+    border-radius:8px;
 }
 
 footer {
@@ -53,7 +70,8 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: #3F51B5;
+    background-color: #072af5;
+    font-size: 14px;
 }
 
 .navButton {
@@ -65,9 +83,15 @@ footer {
     font-size: 16px;
     margin: 4px 10px;
     cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+.navButton:hover{
+    background-color: #ddd4d4;
 }
 
 .flecha {
     font-size: 25px;
-    font-weight: bolder;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
 }

@@ -111,7 +111,18 @@ details {
     border: 1px solid #000000;
     border-radius: 8px;
     padding: 0.5em;
-    background-color: #3e7ef7;
+    background-color: #3bf829;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+details[open] {
+
+    max-height: 500px; 
+}
+
+details:not([open]) {
+    max-height: 40px; 
 }
 
 summary {
@@ -120,8 +131,26 @@ summary {
     display: flex;
     align-items: center;
     gap: 10px;
+    list-style: none; 
+}
+
+summary::-webkit-details-marker {
+    display: none; 
 }
 
 summary img {
     height: 20px;
+}
+
+
+details > *:not(summary) {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+details[open] > *:not(summary) {
+    opacity: 1;
+    transform: translateY(0);
+
 }

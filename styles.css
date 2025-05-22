@@ -103,6 +103,25 @@ margin-bottom: 15px;
 ul li img {
 vertical-align: middle;
 height: 31px;
-margin-left: -10px;
+margin-left: 10px;
 
+}
+details {
+    margin-bottom: 1em;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 0.5em;
+    background-color: #3e7ef7;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+summary img {
+    height: 20px;
 }

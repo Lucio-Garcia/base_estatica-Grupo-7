@@ -156,3 +156,11 @@ details[open] > *:not(summary) {
     transform: translateY(0);
 
 }
+body.index {
+    background-image: url('fon2.webp');
+    
+    
+}
+
+
+

@@ -156,10 +156,14 @@ details[open] > *:not(summary) {
     transform: translateY(0);
 
 }
-body.index {
-    background-image: url('fon2.webp');
-    
-    
+body.container1{
+  background-image: url('fon2.webp'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
 
 

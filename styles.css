@@ -113,7 +113,7 @@ details {
     border: 1px solid #000000;
     border-radius: 8px;
     padding: 0.5em;
-    background-color: #3bf829;
+    background-color: #006269;
     overflow: hidden;
     transition: max-height 0.5s ease;
 }
@@ -156,15 +156,28 @@ details[open] > *:not(summary) {
     transform: translateY(0);
 
 }
+
+
+
+
+
+
 body.container1{
   background-image: url('fon2.webp'); 
+}
+
+body.container2{
+  background-image: url('licencias.png'); 
+}
+
+body.container3{
+      background-image: url('grupo.jpeg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
   padding: 0;
+
 }
-
-
 
